@@ -1,0 +1,824 @@
+
+@font-face{
+	src:url('fonts/pro-thin.ttf');
+	font-family: proxima nova thin;
+}
+@font-face{
+	src:url('fonts/pro-regular.ttf');
+	font-family: proxima nova regular;
+}
+@font-face{
+	src:url('fonts/pro-bold.ttf');
+	font-family: proxima nova bold;
+}
+@font-face{
+	src:url('fonts/pro-semi.ttf');
+	font-family: proxima nova semi;
+}
+@font-face{
+	src:url('fonts/pro-black.ttf');
+	font-family: proxima nova black;
+}
+
+
+.header{
+	background-color: #000;
+}
+
+.logo{
+	margin:15px 0px;
+	padding: 10px 0px;
+
+}
+
+.menu ul li{
+	text-decoration: none;
+}
+
+.menu ul li a{
+	font-size: 18px;
+	display:block;
+	color:#FFF;
+	text-transform:capitalize;
+	font-family:proxima nova regular;
+	margin-top:12px;
+	padding: 18px;
+	transition: .6s;
+}
+
+.menu ul li a:hover{
+	background-color:transparent;
+	color:#42b8dd;
+
+}
+
+.menu ul li a:focus{
+	background-color:#42b8dd;
+	color:#fff;
+
+}
+
+
+.button a{
+	text-decoration: none;
+	display:block;
+	color:#42b8dd;
+	border:2px solid #42b8dd;
+	border-radius:10px;
+	padding: 8px 20px; 
+	font-size:15px;
+	text-align: center;
+	margin-top:15px;
+	margin-left:164px;
+	transition: .5s;
+
+}
+
+.button a:hover{
+	background-color:#42b8dd;
+	color:#FFF;
+	border:2px solid #FFF;
+
+}
+
+.banner{
+	height:100vh;
+	background-image: url(images/banner.png);
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size:cover;
+}
+
+.blr{
+	width:100%;
+	height:100%;
+	background-color: rgba(0, 0, 0, .5);
+	overflow: hidden;
+}
+
+.play i{
+	font-size: 120px;
+	margin:185px 0px;
+	color:#FFF;
+}
+
+.banner-text h2{
+    font-family:proxima nova regular;
+    color:#FFF;
+    margin:201px 35px;
+    font-size:50px;
+
+}
+
+.banner-text a{
+	 display:block;
+     margin:-200px 36px;
+     font-size:17px;
+     color:#42b8dd;
+     text-decoration: none;
+}
+
+.service{
+	background-color: #42b8dd;
+}
+
+.service-left h2{
+	font-size:70px;
+	width:20px;
+	font-family:proxima nova bold;
+	color:#FFF;
+	line-height: 60px;
+	text-transform: uppercase;
+	margin:55px 0px; 
+}
+
+.service-left hr{
+	border:none;
+	width:100%;
+	height:10px;
+	background-color: #FFF;
+	margin-top:-50px;
+}
+
+.service-right{
+    margin-top:54px;
+
+}
+
+.service-icon{
+	width:100px;
+	height:100px;
+	padding:25px;
+    border:2px solid #FFF;
+    border-radius: 50%;
+    font-size:50px;
+    color:#FFF;
+    text-align:center;
+    line-height:50px;
+    float:left;
+    margin-bottom:50px;
+
+
+} 
+
+.service-text {
+	 width:250px;
+	 float:left;
+	 margin:-156px 120px;
+}
+
+.service-text h3{
+	color:#FFF;
+	font-family: proxima nova bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.service-text p{
+	color:#FFF;
+    font-size: 14px;
+    font-family: proxima nova regular;
+    line-height:20px;
+}
+
+.icon{
+	overflow: hidden;
+}
+
+.mid{
+	width:75%;
+	margin:auto;
+}
+
+.icon ul li {
+	font-size: 50px;
+	color:#42b8dd;
+	margin:40px 97px ;
+}
+
+.portfolio{
+	background-color:#ebebeb;
+	overflow: hidden;
+
+}
+
+.portfolio h2{
+	font-size:70px;
+	width:20px;
+	font-family:proxima nova bold;
+	color:#000;
+	line-height: 60px;
+	text-transform: uppercase;
+	margin:55px 0px; 
+}
+
+.portfolio hr{
+	border:none;
+	width:27%;
+	height:10px;
+	background-color: #000;
+	margin-top:-50px;
+}
+
+.portfolio-menu ul li a{
+	 color:#42b8dd;
+	 border:2px solid #42b8dd;
+	 border-radius: 10px;
+	 padding: 10px 25px;
+	 font-size: 16px;
+	 font-family: proxima nova regular;
+	 margin-right:15px;
+
+}
+
+.portfolio-menu ul li a:hover{
+	 background-color:#42b8dd;
+	 color:#FFF;
+}
+
+.portfolio-menu ul li a:focus{
+	 background-color:#42b8dd;
+	 color:#FFF;
+}
+
+.port-box{
+	width:30%;
+	height:300px;
+	display: inline-block;
+	background-image: url(images/banner.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center center;
+    margin:85px 0px;
+    position: relative;
+    overflow: hidden;
+    padding: 0px 0px;
+
+}
+
+
+.port-box .blr{
+       width:100%;
+       height:100%;
+       background-color: rgba(0, 0, 0, 0);
+       transition: 1s;
+      
+}
+
+.port-box .blr:hover{
+       background-color: rgba(0, 0, 0, .6);
+}
+
+.hover-text{
+	width: 100%;
+	height:80px;
+	background-color: #FFF;
+	overflow: hidden;
+	position: absolute;
+	bottom:-80px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	transition: .6s;
+}
+
+.hover-text h3{
+	color:#42b8dd;
+	text-transform: uppercase;
+	font-family:proxima nova bold; 
+	text-align: center;
+	font-size: 20px;
+
+}
+
+.hover-text p{
+	color:#acacac;
+	text-align: center;
+	margin-top:-10px;
+}
+
+.port-box:hover .hover-text{
+       bottom:0px;
+}
+
+#hover-box1{
+	margin:85px 52px;
+
+}
+
+
+#hover-box2{
+	margin:-385px 25px;
+	
+}
+
+#hover-box3{
+	margin-top:-35px;
+	margin-left:34px;
+	
+}
+
+#hover-box4{
+	margin-top:-35px;
+	margin-left:32px;
+	
+}
+
+#hover-box5{
+	margin-top:-35px;
+	margin-left:32px;
+	
+}
+
+#hover-box6{
+	margin-left:-15px;
+	
+}
+
+.testimonial{
+	background-color: #666666;
+	padding-bottom:40px;
+	
+	
+}
+.team{
+	margin-bottom:100px;
+}
+
+
+.test-text h2{
+	width:70%;
+	margin:auto;
+	text-align: center;
+	color:#FFF;
+	font-family: proxima nova regular;
+	margin-top:65px;
+
+}
+
+.test-text img{
+	width:150px;
+	height:150px;
+	border-radius: 50%;
+	margin:20px 495px;
+}
+
+.test-text p{
+	color:#fff;
+	font-family: proxima nova bold;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-top:-13px;
+	margin-left:507px;
+}
+
+.top-team h2{
+	font-size:70px;
+	width:20px;
+	font-family:proxima nova bold;
+	color:#000;
+	line-height: 60px;
+	text-transform: uppercase;
+	margin:90px 0px; 
+}
+
+.top-team hr{
+	border:none;
+	width:27%;
+	height:10px;
+	background-color: #000;
+	margin-top:-80px;
+}
+
+.team-img{
+	width:200px;
+	height:200px;
+	border-radius: 50%;
+	position: relative;
+}
+
+.team-img img{
+	width:200px;
+	height:200px;
+	border-radius: 50%;
+
+}
+
+.team-area{
+	width:30%;
+	display:inline-block;
+
+}
+.team-img .team-icon ul{
+	position:absolute;
+	top:60px;
+	bottom:0px;
+	right:-125px;
+	margin:auto;
+}
+
+.team-icon ul li{
+	display:inline-block;
+}
+
+.team-icon ul li a{
+	display:block;
+    width:20px;
+    height:20px;
+    font-size: 20px;
+	line-height: 20px;
+	background-color:#42b8dd;
+	border-radius: 50%; 
+	padding: 25px;
+	color:#FFF;
+
+}
+
+.team-icon ul li a i{
+	display:block;
+	margin:-9px -6px;
+}
+
+.team-cont h3{
+	color:#42b8dd;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: proxima nova bold;
+	margin-left: 45px;
+}
+
+.team-cont h4{
+	font-size: 16px;
+	color:#acacac;
+	font-family: proxima nova regular;
+    margin-left: 45px;
+}
+
+.team-cont p{
+	width:85%;
+	color:#666;
+	font-family: proxima nova regular;
+	font-size: 16px;
+	margin:30px 45px;
+}
+
+.award{
+	background-color:#666;
+	padding-bottom:50px;  
+}
+
+.social-icon a{
+	font-size: 70px;
+	color:#FFF;
+	margin-top:70px;
+	display:block;
+}
+
+.social-icon h2{
+	font-size: 70px;
+	color:#FFF;
+	margin-top:10px;
+	font-family: proxima nova regular;
+	margin-left:-25px;
+}
+
+.social-icon p{
+	font-size:18px;
+	color:#FFF;
+	margin-top:-10px;
+	font-family: proxima nova bold;
+	margin-left:2px;
+	text-transform: uppercase;
+}
+
+.skill{
+	margin-bottom:100px;
+	
+}
+
+
+.top-skill h2{
+	font-size:70px;
+	width:20px;
+	font-family:proxima nova bold;
+	color:#000;
+	line-height: 60px;
+	text-transform: uppercase;
+	margin:55px 0px; 
+}
+
+.top-skill hr{
+	border:none;
+	width:27%;
+	height:10px;
+	background-color: #000;
+	margin-top:-50px;
+}
+
+
+.progress{
+	margin-top:40px;
+	height:200px;
+	margin-left:-25px;
+	margin-right:10px;
+		
+}
+
+.progress-cont h2{
+	font-size: 18px;
+	font-family: proxima nova bold;
+	color:#42b8dd;
+	text-transform: uppercase;
+	margin-top:40px;
+	margin-left:-25px;
+}
+
+
+.progress-cont p{
+	width:90%;
+	font-size: 16px;
+	font-family: proxima nova regular;
+	color:#666;
+	margin-top:20px;
+	margin-left:-25px;
+}
+
+.skill-right-box{
+	width:100%;
+	height:50px;
+	border:1px solid #ebebeb;
+	border-radius: 10px;
+	margin-top:40px;
+	
+}
+
+.skill-right-box a{
+	display: block;
+	color:#42b8dd;
+	font-size: 25px;
+	margin:9px 21px;
+}
+
+.skill-right-box p{
+	color:#42b8dd;
+	font-size: 15px;
+	font-family: proxima nova bold; 
+	margin:-39px 60px ;
+}
+
+.skill-right-cont p{
+	  color:#898989;
+	  font-size: 14px;
+	  line-height: 22px;
+	  margin-top:16px;
+	  margin-bottom:30px;
+
+}
+
+.skill-right-input{
+	width:100%;
+	height:50px;
+	border:1px solid #ebebeb;
+	border-radius: 10px;
+	margin-top:17px;
+	
+}
+
+.skill-right-input a{
+	display: block;
+	color:#898989;
+	font-size: 25px;
+	margin:9px 21px;
+}
+
+.skill-right-input p{
+	color:#898989;
+	font-size: 14px;
+	font-family: proxima nova bold; 
+	margin:-39px 60px ;
+}
+
+.subscribe{
+	background-color:#42b8dd;
+	padding: 10px 0px; 
+}
+
+.sub-cont h2{
+	font-size: 40px;
+	font-family: proxima nova regular;
+	color:#FFF;
+	text-align: center;
+}
+
+.sub-button a{
+	width:112px;
+	display:block;
+	font-size:18px;
+	font-family: proxima nova regular;
+	color:#42b8dd;
+	text-align: center;
+	background-color: #FFF;
+	border:1px solid #42b8dd;
+	border-radius: 10px;
+	text-decoration: none;
+	padding: 7px 0px;
+	margin:23px -35px;
+}
+
+.channel{
+	background-color:#7f7f7f;
+	padding-bottom: 40px; 
+}
+
+.channel-area{
+	width:180px;
+	height:100px;
+	background-color:#a6a6a6; 
+	margin-top:40px;
+	overflow: hidden;
+}
+
+.channel-area a{
+	 font-size:30px;
+	 color:#fff;
+	 margin:30px 15px;
+	 display:block;
+}
+
+.channel-area h2{
+	 font-size:35px;
+	 color:#fff;
+	 margin:-70px 45px;
+}
+
+.channel-area h3{
+	 font-size:27px;
+	 color:#fff;
+	 margin:-67px 45px;
+}
+
+.channel-area h4{
+	 font-size:30px;
+	 color:#fff;
+	 margin:-68px 48px;
+	 font-family:Segoe Script; 
+}
+
+.channel-area sup{
+	 font-size:12px;
+	 color:#fff;
+	 margin:-20px 100px;
+	 display:block;
+}
+
+.contact{
+	background-color: #ebebeb;
+	padding-bottom: 50px;
+}	
+
+
+.contact-top h2{
+	font-size:70px;
+	width:20px;
+	font-family:proxima nova bold;
+	color:#000;
+	line-height: 60px;
+	text-transform: uppercase;
+	margin:80px 0px; 
+}
+
+.contact-top hr{
+	border:none;
+	width:32%;
+	height:10px;
+	background-color: #000;
+	margin-top:-70px;
+}
+
+.contact-text h3{
+	color:#7f7f7f;
+	font-size:18px;
+	font-family: proxima nova regular;
+	margin-top:40px;
+}
+
+.contact-text p{
+	color:#7f7f7f;
+	font-size:16px;
+	font-family: proxima nova regular;
+	margin-top:-3px;
+}
+
+.contact-icon ul li {
+	display:inline-block;
+
+}
+
+.contact-icon ul li a{
+      color: #42b8dd;
+      display:block;
+      font-size: 18px;
+      padding: 8px;
+}
+
+.contact-area #name{
+     width:49%;
+     float:left;
+     padding: 15px 0px;
+     font-size: 16px;
+     color:#000;
+     text-transform: uppercase;
+     font-family: proxima nova regular;
+     font-weight: bold;
+     border:2px solid #555;
+     margin-top:20px;
+     background-color:#ebebeb;
+     margin-left:-8px; 
+ }
+
+ .contact-area #email{
+     width:49%;
+     float:right;
+     padding: 15px 0px;
+     font-size: 16px;
+     color:#000;
+     text-transform: uppercase;
+     font-family: proxima nova regular;
+     font-weight: bold;
+     border:2px solid #555;
+     margin-top:20px;
+     background-color:#ebebeb;
+     margin-right:8px;  
+ }
+
+.contact-area #mess{
+	 width:100% !important;
+	 height:100px;
+	 font-size: 16px;
+     color:#000;
+     text-transform: uppercase;
+     font-family: proxima nova regular;
+     font-weight: bold;
+     border:2px solid #555;
+     margin-top:30px;
+     background-color:#ebebeb;
+     margin-left:-8px;  
+}
+
+.button-area{
+	width:100%;
+	background-color: #FFF;
+	border-radius:10px;
+	padding:45px 0px;
+	margin:110px 10px;
+	overflow: hidden;
+	
+
+}
+
+.button-area i{
+	font-size: 40px;
+	color:#42b8dd;
+	margin:-18px 120px;
+}
+
+.button-area a{
+	display:block;
+	font-size:18px;
+	color:#42b8dd;
+	font-family: proxima nova regular;
+	text-decoration: none;
+	margin:-30px 158px;
+
+}
+
+.footer{
+	background-color: #000;
+	overflow: hidden;
+}
+
+.footer-area h2{
+     text-align: center;
+     color:#FFF;
+     font-family: proxima nova bold;
+     margin-top:50px;
+
+}
+
+.footer-area h3{
+     text-align: center;
+     color:#444;
+     font-family: proxima nova regular;
+     margin-top:10px;
+     font-size:15px;
+
+}
+
+.footer-area p{
+     text-align: center;
+     color:#444;
+     font-family: proxima nova regular;
+     margin-top:-5px;
+     font-size:15px;
+
+}
